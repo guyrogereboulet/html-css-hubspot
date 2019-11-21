@@ -4,7 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 85%;
-  margin: 0 auto;
+
+.header-top-nav {
+  height: 100px;
+  background-color: #F4F9FD;
+  border: 1px solid black;
+}
+
+.header-buttom-nav {
+  height: 100px;
+  background-color: #FFFF;
+  border: 1px solid black;
+}
+
+.header-middle {
+  height: 600px;
+  background-color: #FFF2EE;
+  border: 1px solid black;
+}
+
+.header-buttom {
+  height: 100px;
+  background-color: #AFEBE4;
+  border: 1px solid black;
 }
