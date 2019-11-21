@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-
+/* Header */
 .header-top-nav {
   height: 100px;
   background-color: #F4F9FD;
@@ -26,5 +26,36 @@
 .header-buttom {
   height: 100px;
   background-color: #AFEBE4;
+  border: 1px solid black;
+}
+
+/* Main */
+.main-top {
+ height: 1200px;
+ background-color: #F5F8FA;
+ border: 1px solid black;
+}
+
+.main-middle {
+  height: 600px;
+  background-color: #00B0B1;
+  border: 1px solid black;
+}
+
+.main-middle {
+  height: 600px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}
+
+.top-footer {
+  height: 400px;
+  background-color: #33475B;
+  border: 1px solid black;
+}
+
+.buttom-footer {
+  height: 200px;
+  background-color: #33475B;
   border: 1px solid black;
 }
