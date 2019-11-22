@@ -191,9 +191,10 @@ button.banner-button {
 }
 
 .main-top-middle {
-  border: 1px solid black;
+  border: 1px solid grey;
   margin-top: 20px;
   border-radius: 5px;
+  background-color: #FFF;
 }
 
 .main-top-middle::after {
@@ -212,6 +213,7 @@ button.banner-button {
   float: left;
   width: 80%;
   text-align: left;
+  margin-top: 40px;
 }
 
 
@@ -234,6 +236,21 @@ button.banner-button {
   width: 400px;
   margin-left: 40px;
 }
+
+.main-top-middle-right li {
+  display: inline-block;
+  list-style: none;
+  color: grey;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.main-top-middle-right i {
+  color: #FF8F73;
+}
+
+
+
 
 .main-middle {
   height: 600px;
