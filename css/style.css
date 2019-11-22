@@ -109,17 +109,23 @@ button.full {
 }
 
 
-/* Header-middle */
+/* header-middle-container */
+.header-middle-container{
+  min-height: 700px;
+  background-color: #FFF4EE;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .header-middle {
-  height: 600px;
-  background-color: #FFF2EE;
-  border: 1px solid black;
 }
 
 .header-buttom {
-  height: 100px;
+  /* height: 100px;
   background-color: #AFEBE4;
-  border: 1px solid black;
+  border-top: 1px solid black; */
 }
 
 /* Main */
