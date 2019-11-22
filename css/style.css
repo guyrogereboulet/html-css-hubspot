@@ -126,7 +126,6 @@ button.banner-button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  back
 }
 
 .banner {
@@ -157,7 +156,7 @@ button.banner-button {
   line-height: 30px;
 }
 
-.testo-banner span {
+.testo-banner .note {
   font-size: 70%;
   color: #33475B;
   margin-bottom: 20px;
