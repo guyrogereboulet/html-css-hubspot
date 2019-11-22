@@ -26,6 +26,15 @@ button.full {
   margin-left: 20px;
 }
 
+button.banner-button {
+  background-color: #FF8F73;
+  border: 1px solid #FFF8F6;
+  border-radius: 5px;
+  padding:20px;
+  color:white;
+  font-weight: bold;
+}
+
 /* Header */
 
 /* Header-top-nav*/
@@ -111,21 +120,53 @@ button.full {
 
 /* header-middle-container */
 .header-middle-container{
-  min-height: 700px;
+  min-height: 705px;
   background-color: #FFF4EE;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  back
 }
 
-.header-middle {
+.banner {
+  position: relative;
+  width: 85%;
+  height: 705px;
+  margin: 0 auto;
+}
+
+
+.testo-banner {
+ width: 30%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.testo-banner h1 {
+  font-size: 3em;
+  color: #33475B;
+  margin-bottom: 20px;
+}
+
+.testo-banner p {
+  font-size: 1em;
+  color: #33475B;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.testo-banner span {
+  font-size: 70%;
+  color: #33475B;
+  margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .header-buttom {
-  /* height: 100px;
+  height: 100px;
   background-color: #AFEBE4;
-  border-top: 1px solid black; */
 }
 
 /* Main */
