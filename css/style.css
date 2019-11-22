@@ -30,13 +30,11 @@ button.full {
 
 /* Header-top-nav*/
 .header-top {
-  width: 100%;
-  background-color: #F4F9FD;
+ background-color: #F4F9FD;
 }
 
 .header-top-nav {
-  height: 80px;
-  line-height: 80px;
+  line-height: 90px;
   width: 85%;
   margin: 0 auto;
   background-color: #F4F9FD;
@@ -63,21 +61,55 @@ button.full {
   color: grey;
   padding-left: 10px;
 }
+
 /* Header-buttom-nav*/
 .header-buttom-nav {
   background-color: #FFFF;
-  margin: 0 auto;
 }
 
 .header-buttom-nav-menu {
   background-color: #FFFF;
-  height: 80px;
-  line-height: 80px;
   width: 85%;
   margin: 0 auto;
+  line-height: 90px;
+}
+
+.header-buttom-nav-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-buttom-nav-menu-right {
+  float: right;
+}
+
+.header-buttom-nav-menu-left {
+  float: left;
+}
+
+.header-buttom-nav-menu-left img {
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.header-buttom-nav-menu-right li {
+  display: inline-block;
+  list-style: none;
+  color: #33475B;
+  padding-left: 10px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.header-buttom-nav-menu-right i {
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 
+/* Header-middle */
 .header-middle {
   height: 600px;
   background-color: #FFF2EE;
