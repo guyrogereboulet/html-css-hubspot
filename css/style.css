@@ -146,6 +146,7 @@ button.banner-button {
 .testo-banner h1 {
   font-size: 3em;
   color: #33475B;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -159,8 +160,8 @@ button.banner-button {
 .testo-banner .note {
   font-size: 70%;
   color: #33475B;
-  margin-bottom: 20px;
   line-height: 30px;
+  margin-top: 20px;
 }
 
 .header-buttom {
@@ -171,8 +172,22 @@ button.banner-button {
 /* Main */
 .main-top {
  height: 1200px;
+ width: 85%;
+ margin: 0 auto;
  background-color: #F5F8FA;
  border: 1px solid black;
+ text-align: center;
+
+}
+
+.main-top h2 {
+ margin-bottom: 20px;
+}
+
+.main-top p {
+ margin: 0 auto;
+ text-align: center;
+ width: 60%;
 }
 
 .main-middle {
