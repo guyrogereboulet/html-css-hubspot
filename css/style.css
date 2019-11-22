@@ -171,7 +171,7 @@ button.banner-button {
 
 /* Main */
 .main-top {
- height: 1200px;
+ height: 1400px;
  width: 85%;
  margin: 0 auto;
  background-color: #F5F8FA;
@@ -180,14 +180,59 @@ button.banner-button {
 
 }
 
-.main-top h2 {
+.testo-main-top h2 {
  margin-bottom: 20px;
 }
 
-.main-top p {
+.testo-main-top p {
  margin: 0 auto;
  text-align: center;
  width: 60%;
+}
+
+.main-top-middle {
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.main-top-middle::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-top-middle-left {
+  float: left;
+  width: 10%;
+  margin-right: 10%;
+}
+
+.main-top-middle-right {
+  float: left;
+  width: 80%;
+  text-align: left;
+}
+
+
+.main-top-middle-right h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.main-top-middle-right p {
+  font-size: 90%;
+  margin-bottom: 10px;
+}
+
+.main-top-middle-right h5 {
+  display: inline-block;
+}
+
+.main-top-middle-right hr {
+  display: inline-block;
+  width: 400px;
+  margin-left: 40px;
 }
 
 .main-middle {
@@ -196,11 +241,6 @@ button.banner-button {
   border: 1px solid black;
 }
 
-.main-middle {
-  height: 600px;
-  background-color: #FFFFFF;
-  border: 1px solid black;
-}
 
 /* Footer */
 .top-footer {
