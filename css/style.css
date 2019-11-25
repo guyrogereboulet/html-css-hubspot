@@ -324,10 +324,10 @@ background-color:#F5F8FA;
 
 /* Inizio main-middle  */
 .main-middle {
-  height: 600px;
   background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .main-middle-top {
@@ -347,13 +347,24 @@ background-color:#F5F8FA;
   clear: both;
 }
 
+.main-middle-bottom:last-child {
+  border-right: none;
+}
+
 .middle-col {
   display: relative;
   float: left;
   border-right: 1px solid #FFF;
   width: 25%;
   text-align: center;
+  color: #FFF;
+  line-height: 30px;
 }
+
+.quattro {
+  border-right: none;
+}
+
 
 .top {
   border-bottom: 1px solid #FFF;
@@ -366,10 +377,24 @@ background-color:#F5F8FA;
 
 /* Fine main-middle  */
 
+/* Inizio main-bottom */
+
+.main-buttom-superiore:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-buttom-superiore-sinistro {
+  float: left;
+}
+
+.main-buttom-superiore-destro {
+  float: left;
+}
 
 
-
-
+/* Fine main-bottom */
 
 
 /* Footer */
