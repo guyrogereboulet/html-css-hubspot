@@ -320,20 +320,56 @@ background-color:#F5F8FA;
   color: #FF8F73;
 }
 
-
-
-
-
-
-
-
-
 /* Fine main-top-col */
+
+/* Inizio main-middle  */
 .main-middle {
   height: 600px;
   background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
-  border: 1px solid black;
+  width: 85%;
+  margin: 0 auto;
 }
+
+.main-middle-top {
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+.main-middle-top h2 {
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+
+.main-middle-bottom:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.middle-col {
+  display: relative;
+  float: left;
+  border-right: 1px solid #FFF;
+  width: 25%;
+  text-align: center;
+}
+
+.top {
+  border-bottom: 1px solid #FFF;
+  padding: 20px;
+}
+
+.bottom {
+  padding: 20px;
+}
+
+/* Fine main-middle  */
+
+
+
+
+
 
 
 /* Footer */
