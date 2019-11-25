@@ -481,8 +481,6 @@ background-color:#F5F8FA;
   background-color: #33475B;
 }
 
-
-
 .top-footer {
   width: 85%;
   height: 400px;
@@ -515,17 +513,23 @@ background-color:#F5F8FA;
   font-size: 110%;
 }
 
+.lingue {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
 
-
-
-
-
-
-
+.lingue li {
+  display: inline-block;
+  list-style: none;
+  color: #FFF;
+  padding: 10px;
+}
 
 
 .buttom-footer {
   height: 200px;
   background-color: #33475B;
-  border: 1px solid black;
+  border-top:1px solid #FFF;
 }
