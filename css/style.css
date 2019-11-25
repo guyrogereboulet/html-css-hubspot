@@ -26,6 +26,16 @@ button.full {
   margin-left: 20px;
 }
 
+button.grey {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding:10px;
+  border-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 button.banner-button {
   background-color: #FF8F73;
   border: 1px solid #FFF8F6;
@@ -344,7 +354,11 @@ background-color:#F5F8FA;
 
 .main-middle-top h2 {
  margin-bottom: 30px;
- margin-top: 30px;
+ padding-top: 30px;
+}
+
+.main-middle-bottom {
+  padding-bottom: 100px;
 }
 
 .main-middle-bottom:after {
@@ -459,16 +473,56 @@ background-color:#F5F8FA;
   margin-top: 20px;
 }
 
-
 /* Fine main-bottom */
 
 
 /* Footer */
-.top-footer {
-  height: 400px;
+.footer-container{
   background-color: #33475B;
-  border: 1px solid black;
 }
+
+
+
+.top-footer {
+  width: 85%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #33475B;
+}
+
+.top-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-footer ul {
+ list-style: none;
+ font-size: 70%;
+}
+
+.top-footer-colonna {
+  float: left;
+  width: 25%;
+  padding-right: 5%;
+  padding-top: 5%;
+  color: #FFF;
+  line-height: 30px;
+}
+
+.top-footer i {
+  padding-right: 22px;
+  font-size: 110%;
+}
+
+
+
+
+
+
+
+
+
 
 .buttom-footer {
   height: 200px;
