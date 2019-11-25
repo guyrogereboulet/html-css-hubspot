@@ -307,6 +307,7 @@ background-color:#F5F8FA;
   font-size: 90%;
   margin-bottom: 10px;
   line-height: 30px;
+  min-height: 100px;
 }
 
 .main-top-col h3 {
@@ -420,7 +421,7 @@ background-color:#F5F8FA;
 }
 
 .main-buttom-superiore-sinistro h2 {
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 20px;
 }
 
@@ -443,8 +444,8 @@ background-color:#F5F8FA;
   background-image: url(../img/woman.webp);
   background-repeat: no-repeat;
   background-position: right;
-  height: 400px;
-  background-size: 30%;
+  height: 600px;
+  background-size: 25%;
 }
 
 
@@ -456,7 +457,9 @@ background-color:#F5F8FA;
 }
 
 .testo-main-buttom-inferiore h2 {
+ margin-top: 60px;
  margin-bottom: 20px;
+ font-size: 3em;
 }
 
 .testo-main-buttom-inferiore > p {
@@ -529,6 +532,8 @@ background-color:#F5F8FA;
 
 
 .buttom-footer {
+  width: 85%;
+  margin: 0 auto;
   padding-top: 20px;
   height: 200px;
   background-color: #33475B;
