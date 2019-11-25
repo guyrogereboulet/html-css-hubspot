@@ -323,6 +323,12 @@ background-color:#F5F8FA;
 /* Fine main-top-col */
 
 /* Inizio main-middle  */
+
+.main-middle-container {
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+}
+
+
 .main-middle {
   background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   width: 85%;
@@ -378,6 +384,14 @@ background-color:#F5F8FA;
 /* Fine main-middle  */
 
 /* Inizio main-bottom */
+.main-buttom {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main-buttom-superiore {
+  margin-bottom: 40px;
+}
 
 .main-buttom-superiore:after {
   content: "";
@@ -387,10 +401,62 @@ background-color:#F5F8FA;
 
 .main-buttom-superiore-sinistro {
   float: left;
+  width: 20%;
+  margin-left: 5%;
+}
+
+.main-buttom-superiore-sinistro h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
 .main-buttom-superiore-destro {
-  float: left;
+  float: right;
+  width: 70%;
+  text-align: center;
+}
+
+.main-buttom-superiore-destro img {
+  height: 20px;
+  display: inline-block;
+  margin-left:5%;
+  margin-bottom: 20px;
+}
+
+
+.main-buttom-inferiore {
+  position: relative;
+  background-image: url(../img/woman.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+  background-size: 30%;
+}
+
+
+.testo-main-buttom-inferiore {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 0;
+}
+
+.testo-main-buttom-inferiore h2 {
+ margin-bottom: 20px;
+}
+
+.testo-main-buttom-inferiore > p {
+ margin-bottom: 20px;
+ font-size: 1em;
+ line-height: 30px;
+ color: #33475B;
+}
+
+.testo-main-buttom-inferiore .note {
+  font-size: 70%;
+  color: #33475B;
+  line-height: 30px;
+  margin-top: 20px;
 }
 
 
