@@ -529,7 +529,29 @@ background-color:#F5F8FA;
 
 
 .buttom-footer {
+  padding-top: 20px;
   height: 200px;
   background-color: #33475B;
   border-top:1px solid #FFF;
+  color: #FFF;
+}
+
+.buttom-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-sinitro {
+  float: left;
+}
+
+.footer-destro {
+  float: right;
+}
+
+.footer-destro li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 15px;
 }
